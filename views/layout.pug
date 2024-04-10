@@ -1,0 +1,45 @@
+doctype html
+html
+  head
+    title= pagetitle
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    script(src="/javascripts/menu.js")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    #menu
+      section#menuitems
+        .menubutton
+          h1.menubutton(onclick="menuToggle('hide')") &#9776;
+        a(href="/")
+          h3.menuhead Sample Text
+        a(href="/users")
+          h3.sectrule Users
+    #container
+      #header
+        a(href="/")
+          h1.logo Sample Text
+        .headspace
+        h1.menubutton(onclick="menuToggle('show')") &#9776;
+        h1.placeholder &#9776;
+        h2.navitem
+          a(href="/about")
+            .clickable-area About Us
+        h2.navitem
+          a(href="/contact")
+            .clickable-area Contact Us
+      #panel.left
+        section#sections
+          .sectionlink
+            a(href="/users")
+              .clickable-area Users
+      block mainbody
+    #panel.right
+      h3 Our friends
+      section#partners.tall
+        .partnerlink
+          a(href="/")
+            .clickable-area Uh...
+    #footer
+      p Copyright &copy; 😂😂😂 lol nvm 😂😂😂
+
