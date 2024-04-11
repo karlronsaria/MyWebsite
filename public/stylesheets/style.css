@@ -106,7 +106,7 @@ a:active {                                /* when anchor link is clicked */
   grid-area: mainbody;
   justify-self: center;          /* fixed-width mainbody always centered */
   width: 100%;
-  min-width: 22.5rem;            /* mainbody width can't go < 22.5rem */
+  min-width: 22.5rem;               /* mainbody width can't go < 22.5rem */
 
   background-image:
     url("../images/saitama.png")
@@ -201,7 +201,7 @@ div#mainbody {                               /* extra space under header */
   font-weight: normal;
   font-size: 1.1rem;
 }
-.date, .ingredient {                                         /* e.g., January 1, 2021 */
+.date, .ingredient {                            /* e.g., January 1, 2021 */
   font-style: italic;
   font-size: 0.9rem;
   padding: 0 0 0.01rem 0.5rem;
