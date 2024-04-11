@@ -109,12 +109,12 @@ a:active {                                /* when anchor link is clicked */
   min-width: 22.5rem;            /* mainbody width can't go < 22.5rem */
 
   background-image:
-    url("../images/large/pants-duck.gif")
+    url("../images/saitama.png")
     ;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-color: rgb(255,255,255,0.4);
+  background-color: rgb(255,255,255,0.7);
   background-blend-mode: lighten;
 }
 div#panel,
